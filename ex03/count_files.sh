@@ -1,1 +1,1 @@
-find . -not -name ".*" -or -type d | wc -l
+find . -type f -or -type d | wc -l
